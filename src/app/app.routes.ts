@@ -4,7 +4,7 @@ from './components/index.paginas';
 const app_routes: Routes = [
   { path: '', component: PortafolioComponent, pathMatch: 'full' },
   { path: 'about', component: AboutComponent, pathMatch: 'full' },
-  { path: 'producto', component: ProductoComponent, pathMatch: 'full' },
+  { path: 'producto/:id', component: ProductoComponent, pathMatch: 'full' },
   { path: '**', pathMatch: 'full', redirectTo: '' }
 ];
 
