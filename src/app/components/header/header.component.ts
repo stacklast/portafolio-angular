@@ -6,7 +6,7 @@ import { Router } from "@angular/router"
   templateUrl: './header.component.html'
 })
 export class HeaderComponent {
-  constructor( public _is:InformacionService
+  constructor( public _is:InformacionService,
                 private route:Router){
 
   }
