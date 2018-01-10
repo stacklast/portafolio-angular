@@ -19,7 +19,7 @@ export class ProductoComponent  {
           res=> {
             this.cod = parametros['id'];
             this.producto = res.json();
-            console.log( this.producto );
+            //console.log( this.producto );
           }
         )
         //console.log( parametros['id'] );
